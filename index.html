@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>CSS Box Model</h1>
+    </div>
+    <p>The box model comprises the set of properties that define parts of an element that take up space on a web page. The model includes the content area’s size (width and height) and the element’s padding, border, and margin.</p>
+    <div>
+        <h2 class="howheading">How does the Box Model look like?</h2>
+        <img class="image" src="https://res.cloudinary.com/practicaldev/image/fetch/s--7ihEu6G5--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/iwkjpm93cri86dxj19gb.png" alt="">
+    </div>
+    <div>
+        <h2 class="propertyheading">Box Model Properties Explained</h2>
+        <table>
+            <thead class="theadone">
+                <tr>
+                    <th>Box Model Property</th>
+                    <th>What it does</th>
+                    <th>Semantic and logical Rules</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td class="property">width and height</td>
+                    <td>the width and the height of the content area</td>
+                    <td>write it in px, it will be responsive on all devices then</td>
+                </tr>
+                <tr>
+                    <td class="property">border</td>
+                    <td>line that surrounds an element, like a frame</td>
+                    <td>we specify it with width, style and color<span>*</span></td>
+                </tr>
+                <tr>
+                    <td class="property">padding</td>
+                    <td>space between the contents of box and the borders of a box</td>
+                    <td>from all the sides, from 4 to 1 values or you can be specific</td>
+                </tr>
+                <tr>
+                    <td class="property">margin</td>
+                    <td>space directly outside the box, specify the size od that space</td>
+                    <td>from all the sides, from 4 to 1 values or you can be specific </td>
+                </tr>
+        </table>
+    </div>
+    <div>
+        <h2 class="borderheading">*What we can specify border with</h2>
+        <table class="tabletwo">
+            <thead class="theadtwo">
+                <tr>
+                    <th>Border specification</th>
+                    <th>What it does</th>
+                    <th>What options do we have</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td class="property">width</td>
+                    <td>the thickness of the border</td>
+                    <td>border's thickness can be set in pixels or with one of the following keywords:thin, medium, or thick</td>
+                </tr>
+                <tr>
+                    <td class="property">style</td>
+                    <td>the design of the border</td>
+                    <td>web browsers can render any of 10 different styles. Some of these styles include:none, dotted, and solid</td>
+                </tr>
+                <tr>
+                    <td class="property">color</td>
+                    <td>the color of the border</td>
+                    <td>web browsers can render colors using a few different formats, including 140 built-in color keywords.</td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
