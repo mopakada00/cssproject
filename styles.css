@@ -1,0 +1,80 @@
+body {
+    background-color: snow;
+    font-family: 'Roboto', sans-serif, Helvetica, Arial;
+}
+
+h1 {
+    font-size: 150px;
+    margin: 25px 25px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 25px;
+    background-image: url('https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=');
+}
+
+p {
+    margin: 24px;
+    font-weight: 500;
+}
+
+h2 {
+    margin: 25px;
+    text-align: center;
+    color:whitesmoke;
+    border-radius: 25px;
+}
+
+.image {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+td {
+    font-weight: 600px;
+    padding: 15px;
+}
+
+th {
+    padding: 15px;
+}
+
+.theadone {
+    background-color: CornflowerBlue;
+}
+
+.theadtwo {
+    background-color: Thistle;
+}
+
+.property {
+    font-weight: bold;
+    background-color:Linen;
+}
+
+.howheading {
+    background-image: url('https://media.istockphoto.com/photos/tropical-leaves-abstract-green-leaves-texture-nature-background-picture-id1254474165?k=20&m=1254474165&s=612x612&w=0&h=Aw309RJcelh7jQEM6whLornlQ2EzCbJsUeIYZnzw6ks=');;
+}
+
+.propertyheading {
+    background-image: url('https://media.istockphoto.com/photos/wild-grass-in-the-mountains-at-sunset-picture-id1322277517?k=20&m=1322277517&s=612x612&w=0&h=ZdxT3aGDGLsOAn3mILBS6FD7ARonKRHe_EKKa-V-Hws=');
+}
+
+.borderheading {
+    background-image: url("https://media.istockphoto.com/photos/bamboo-forest-in-japan-picture-id1129053212?k=20&m=1129053212&s=612x612&w=0&h=rATLyt0W14kn2X48fw_oDWItl_O3alo1WtCeo6pdRaQ=");
+}
